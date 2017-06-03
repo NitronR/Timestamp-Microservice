@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Timestamp Microservice</title>
+	<style>
+		body{
+			font-family:Arial;
+		}
+	</style>
+</head>
+<body>
+<center>
+<h1>Timestamp Microservice</h1>
+  <hr/>
+  <p style="width:50%">
+    This microservice checks if the parameter passed with the URL(i.e. the string next to '/') is in unix or natural date format. If it is, it displays the unix and natural date ,else it displays null. 
+  </p>
+<p><b>Usage :</b> type parameter in the address bar next to the '/'.</p>
+<h2>Example usage:</h2><br>
+<code>https://timestamp-microserv.glitch.me/December%2015,%202015<br>
+https://timestamp-microserv.glitch.me/1450137600<br></code>
+<h2>Example output:</h2><br>
+<code>{ "unix": 1450137600, "natural": "December 15, 2015" }</code>
+</center>
+</body>
+</html>
